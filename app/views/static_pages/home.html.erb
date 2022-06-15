@@ -1,3 +1,5 @@
+
+<% provide(:title, "Home") %>
 <%# <% if logged_in? %> 
 <div class="row">
 <aside class="col-md-4">
@@ -32,7 +34,7 @@ This is the home page for the
 <a href="https://nal.co.jp/">NAL Viet Nam</a>
 
 </h2>
-<%# <%= link_to "Sign up now!", signup_path, class: "btn btn-primary" %> 
+<%= link_to "Sign up now!", signup_path, class: "btn btn-primary"%>
 </div>
 
 <%= link_to image_tag("nal.png", alt: "Rails logo", width:"200"), "https://rubyonrails.org/" %>
