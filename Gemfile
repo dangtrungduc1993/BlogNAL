@@ -3,8 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
-gem 'sass-rails'
+gem 'sass-rails' #Chạy file scss
 gem 'bootstrap-sass', '3.4.1'
+gem 'bcrypt', '3.1.13' #Add password digest
 
 
 
